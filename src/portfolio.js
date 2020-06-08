@@ -7,19 +7,19 @@ import emoji from "react-easy-emoji";
 
 const greeting = {
   /* Your Summary And Greeting Section */
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
-  subTitle: emoji("A passionate Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."),
-  resumeLink: "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing"
+  username: "Dartemiss",
+  title: "Hi everyone, I'm Enrique",
+  subTitle: emoji("A passionate Game Developer C++ programmer 🚀 who have experience on building a game engine from scratch using C++ called LittleOrionEngine. And also on developing a beat em up game using the same engine and other personal projects with Unity and Unreal Engine 4."),
+  resumeLink: "https://drive.google.com/file/d/1u3fihKdIJ8EduR5g1QmywKfewECLGf4K/view?usp=sharing"
 };
 
 // Your Social Media Link
 
 const socialMediaLinks = {
 
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
+  github: "https://github.com/Dartemiss",
+  linkedin: "https://www.linkedin.com/in/enrique-gonzález-sequeira/",
+  gmail: "egonzalezsequeira@gmail.com",
   gitlab: "https://gitlab.com/saadpasta",
   facebook: "https://www.facebook.com/saad.pasta7"
   // Instagram and Twitter are also supported in the links!
@@ -28,71 +28,33 @@ const socialMediaLinks = {
 // Your Skills Section
 
 const skillsSection = {
-  title: "What i do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  title: "What I do",
+  subTitle: "PASSIONATE GAME DEVELOPER WHO WANTS TO LEARN ALL NEW GAMEPLAY TECHNIQUES",
   skills: [
-    emoji("⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji("⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean")
+    "⚡ Develop clear and well-structured C++ code while bearing in mind performance, maintenance and compatibility requirements",
+    "⚡ Knowledge of 3D math",
+    "⚡ Ability to optimize and debug",
+    "⚡ Knowledge of Object Oriented Programming, particulary C++",
+    "⚡ Develop all kind of fun and different mechanics"
   ],
 
 /* Make Sure You include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
 
-  softwareSkills: [
-    {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
-    }
-  ]
+softwareSkills: [
+  {
+    skillName: "code",
+    fontAwesomeClassname: "fas fa-code-branch"
+  },
+  {
+    skillName: "c++",
+    fontAwesomeClassname: "fas fa-code"
+  },
+  {
+    skillName: "git",
+    fontAwesomeClassname: "far fa-file-code"
+  }
+]
 };
 
 // Your top 3 proficient stacks/tech experience
@@ -101,16 +63,16 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design",  //Insert stack or technology you have experience in
+      Stack: "C++ Programming",  //Insert stack or technology you have experience in
       progressPercentage: "90%"  //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
-      progressPercentage: "70%"
+      Stack: "Gameplay Programming",
+      progressPercentage: "75%"
     },
     {
-      Stack: "Programming",
-      progressPercentage: "60%"
+      Stack: "Engine Programming",
+      progressPercentage: "65%"
     }
   ]
 };
@@ -122,29 +84,22 @@ const workExperiences = {
   viewExperiences: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",  
-      company: "Facebook",
+      role: "Gameplay & Engine C++ Programmer",  
+      company: "OnionGalaxy",
       companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      date: "January 2020 – Present",
+      desc: "Developer of our own studio on the AAA Videogames Programming master degree, where I've work on the development of our own engine and the gameplay of the game Twinlight Souls.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Developed AI, Undo/Redo, Resource Managment of scenes systems of the Engine",
+        "Gameplay of the beat em up Twinlight Souls, warp mechanic, combos."
       ]
     },
     {
-      role: "Front-End Developer",   
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
-    {
-      role: "Software Engineer Intern",  
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.jpg"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Junior Java Developer",   
+      company: "Sopra Steria",
+      companylogo: require("./assets/images/sopra-icon.jpg"),
+      date: "February 2019 – October 2019",
+      desc: "Working on an international project for an important french client (LaPoste), testing and fixing bugs on a TMA team. On this project I have used JIRA for managing all the stages of the bug correction, also I have been managing databases and Java code."
     },
   ]
 };
@@ -154,7 +109,7 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
-  githubUserName: "saadpasta", // Change to your github username to view your profile in Contact Section.
+  githubUserName: "dartemiss", // Change to your github username to view your profile in Contact Section.
   showGithubProfile :"true" // Set true or false to show Contact profile using Github, defaults to false 
 };
 
