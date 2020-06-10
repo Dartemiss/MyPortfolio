@@ -26,6 +26,7 @@ export default class Main extends Component {
         <StackProgress />
         <WorkExperience />
         <Projects />
+        <StartupProject />
         <Profile />
         <Footer />
         <Top />

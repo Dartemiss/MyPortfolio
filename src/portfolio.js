@@ -20,8 +20,7 @@ const socialMediaLinks = {
   github: "https://github.com/Dartemiss",
   linkedin: "https://www.linkedin.com/in/enrique-gonzález-sequeira/",
   gmail: "egonzalezsequeira@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7"
+  twitter: "https://twitter.com/RiquiGS"
   // Instagram and Twitter are also supported in the links!
 };
 
@@ -86,7 +85,7 @@ const workExperiences = {
     {
       role: "Gameplay & Engine C++ Programmer",  
       company: "OnionGalaxy",
-      companylogo: require("./assets/images/facebookLogo.png"),
+      companylogo: require("./assets/images/oniongalaxy.jpg"),
       date: "January 2020 – Present",
       desc: "Developer of our own studio on the AAA Videogames Programming master degree, where I've work on the development of our own engine and the gameplay of the game Twinlight Souls.",
       descBullets: [
@@ -117,16 +116,33 @@ const openSource = {
 // Some Big Projects You have worked with your company
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Projects",
+  subtitle: "All the projects where I have been working as a gamedev.",
   projects: [
     {
-      image: "https://drive.google.com/uc?id=1exWn9T6j8TsfDDHJnS3VR66eP6RiGAfY",
-      link: "http://saayahealth.com/"
+      image: require("./assets/images/lemmings.png"),
+      link: "https://github.com/Dartemiss/CloudLemmings",
+      description: "Lemmigs 3 : Dragon Witcher",
+      divname: "lemmings-div"
+
     },
     {
-      image: "https://drive.google.com/uc?id=1MXoXcQRK-pH8J82wyjCW4SJk5AxJe7tf",
-      link: "http://nextu.se/"
+      image: require("./assets/images/dragonengine.gif"),
+      link: "https://github.com/Dartemiss/DragonEngine",
+      description: "Dragon Engine",
+      divname: "dragonengine-div"
+    },
+    {
+      image: require("./assets/images/fixitstewie.gif"),
+      link: "https://github.com/JorxSS/FixIt-Stewie",
+      description: "Fix it Stewie",
+      divname: "fixitstewie-div"
+    },
+    {
+      image: require("./assets/images/falloutgo.gif"),
+      link: "https://github.com/Dartemiss/Vj-3D-FalloutGO",
+      description: "Fallout GO",
+      divname: "falloutgo-div"
     }
   ]
 };
@@ -220,9 +236,9 @@ const podcastSection = {
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
-  subtitle: "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-3243454077",
-  email_address: "saadpasta70@gmail.com"
+  subtitle: "For any question or comments don't hesitate to contact me.",
+  number: "+34-638165561",
+  email_address: "egonzalezsequeira@gmail.com"
 };
 
 //Twitter Section
