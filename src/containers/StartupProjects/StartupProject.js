@@ -123,7 +123,7 @@ The engine is done from scratch using some libraries like SDL, glew (OpenGL), as
             <li> Killable surfaces</li>
           </ul>
          <div class="images-right" onClick={() => openProjectInNewWindow("https://github.com/OnionGalaxy/TwinlightSouls")}>
-          <img src={require("../../assets/images/litleorionengine.gif")} alt="Girl in a jacket" width="600" height="370"></img>
+          <img src={require("../../assets/images/twinlightsouls.gif")} alt="Girl in a jacket" width="600" height="370"></img>
          </div>
       </div>
     </div>
