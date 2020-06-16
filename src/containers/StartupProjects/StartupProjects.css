@@ -1,5 +1,5 @@
 .startup-projects-main {
-  display: flex;
+  display: block;
 }
 
 .startup-projects-main > * {

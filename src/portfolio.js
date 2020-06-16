@@ -9,8 +9,9 @@ const greeting = {
   /* Your Summary And Greeting Section */
   username: "Dartemiss",
   title: "Hi everyone, I'm Enrique",
-  subTitle: emoji("A passionate Game Developer C++ programmer 🚀 who have experience on building a game engine from scratch using C++ called LittleOrionEngine. And also on developing a beat em up game using the same engine and other personal projects with Unity and Unreal Engine 4."),
-  resumeLink: "https://drive.google.com/file/d/1u3fihKdIJ8EduR5g1QmywKfewECLGf4K/view?usp=sharing"
+  subTitle: emoji("A passionate Game Developer C++ programmer 🚀who enjoys developing and playing fun games. I'm a graduate student of Bachelor's Degree in Computer Science at the Universitat Politècnica de Catalunya (UPC), and currently I'm a student of the Master's Degree in Advanced Programming for AAA Video Games at UPC School."),
+  resumeLink: "https://drive.google.com/file/d/1u3fihKdIJ8EduR5g1QmywKfewECLGf4K/view?usp=sharing",
+  portfolioLink: "https://drive.google.com/file/d/1KfhenB2OYaMkZHnGeoPcBXQgkAnl5yW_/view?usp=sharing"
 };
 
 // Your Social Media Link
@@ -72,7 +73,12 @@ const techStack = {
     {
       Stack: "Engine Programming",
       progressPercentage: "65%"
+    },
+    {
+      Stack: "C# Programming",
+      progressPercentage: "60%"
     }
+
   ]
 };
 
