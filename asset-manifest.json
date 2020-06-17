@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/MyPortfolio/static/css/main.47e56045.chunk.css",
+    "main.js": "/MyPortfolio/static/js/main.1095c0f7.chunk.js",
+    "main.js.map": "/MyPortfolio/static/js/main.1095c0f7.chunk.js.map",
+    "runtime-main.js": "/MyPortfolio/static/js/runtime-main.25102f67.js",
+    "runtime-main.js.map": "/MyPortfolio/static/js/runtime-main.25102f67.js.map",
+    "static/js/2.f4184e63.chunk.js": "/MyPortfolio/static/js/2.f4184e63.chunk.js",
+    "static/js/2.f4184e63.chunk.js.map": "/MyPortfolio/static/js/2.f4184e63.chunk.js.map",
+    "index.html": "/MyPortfolio/index.html",
+    "precache-manifest.41d535f6e6fd63b7229e6924dd33ffaf.js": "/MyPortfolio/precache-manifest.41d535f6e6fd63b7229e6924dd33ffaf.js",
+    "service-worker.js": "/MyPortfolio/service-worker.js",
+    "static/css/main.47e56045.chunk.css.map": "/MyPortfolio/static/css/main.47e56045.chunk.css.map",
+    "static/media/index.css": "/MyPortfolio/static/media/Montserrat-Regular.ee653992.ttf",
+    "static/media/DragonEngineGif.gif": "/MyPortfolio/static/media/DragonEngineGif.0cfe661e.gif",
+    "static/media/contactMail.png": "/MyPortfolio/static/media/contactMail.d6d4086f.png",
+    "static/media/developerActivity.svg": "/MyPortfolio/static/media/developerActivity.59389695.svg",
+    "static/media/dragonengine.gif": "/MyPortfolio/static/media/dragonengine.57e4155e.gif",
+    "static/media/falloutgo.gif": "/MyPortfolio/static/media/falloutgo.ca393698.gif",
+    "static/media/fixitstewie.gif": "/MyPortfolio/static/media/fixitstewie.b060ef4d.gif",
+    "static/media/lemmings.png": "/MyPortfolio/static/media/lemmings.c681f771.png",
+    "static/media/litleorionengine.gif": "/MyPortfolio/static/media/litleorionengine.d80a053c.gif",
+    "static/media/logo.svg": "/MyPortfolio/static/media/logo.25bf045c.svg",
+    "static/media/manOnTable.svg": "/MyPortfolio/static/media/manOnTable.52be3144.svg",
+    "static/media/oniongalaxy.jpg": "/MyPortfolio/static/media/oniongalaxy.37f2856e.jpg",
+    "static/media/pixeldungeon_coop.png": "/MyPortfolio/static/media/pixeldungeon_coop.2f7249fb.png",
+    "static/media/skill.svg": "/MyPortfolio/static/media/skill.34409398.svg",
+    "static/media/sopra-icon.jpg": "/MyPortfolio/static/media/sopra-icon.e143a3ef.jpg",
+    "static/media/TalkCard.css": "/MyPortfolio/static/media/talksCardBack.de3da806.svg",
+    "static/media/twinlightsouls.gif": "/MyPortfolio/static/media/twinlightsouls.3dd5ef2b.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.25102f67.js",
+    "static/js/2.f4184e63.chunk.js",
+    "static/css/main.47e56045.chunk.css",
+    "static/js/main.1095c0f7.chunk.js"
+  ]
+}
