@@ -95,8 +95,8 @@ const workExperiences = {
       date: "January 2020 – Present",
       desc: "Developer of our own studio on the AAA Videogames Programming master degree, where I've work on the development of our own engine and the gameplay of the game Twinlight Souls.",
       descBullets: [
-        "Developed AI, Undo/Redo, Resource Managment of scenes systems of the Engine",
-        "Gameplay of the beat em up Twinlight Souls, warp mechanic, combos."
+        "Developed AI, Undo/Redo, Resource Managment of scenes and asyncronous loading of resources.",
+        "Gameplay of the beat em up Twinlight Souls, combat system, boss fight AI."
       ]
     },
     {
